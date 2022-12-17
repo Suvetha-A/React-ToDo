@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  background-color: rgb(235, 236, 236);
+}
+
+.App {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  margin-top: 20px;
+
+}
+
+.App .column {
+  width: 30%;
+}
+
+.droppable-col {
+  width: 100%;
+  background-color: rgb(197, 192, 192);
+  padding: 10px 10px 0 10px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  margin-bottom: 10px;
+  background-color: rgb(170, 244, 117);
+  color: black;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.item.dragging {
+  background-color: rgb(170, 244, 117);
+}
+button{
+  border-radius: 5px;
+  background-color: rgb(63, 62, 61);
+  color: white;
+}
